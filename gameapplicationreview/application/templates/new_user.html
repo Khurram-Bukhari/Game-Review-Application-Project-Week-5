@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+<html>
+
+{% block body %}
+<h2>Please enter your information</h2>
+
+<form method="POST" action=" ">
+    {{ form.hidden_tag() }}
+    <br>
+    {{ form.first_name.label}}: {{ form.first_name }}
+    <br>
+    {{ form.last_name.label}}: {{ form.last_name }}
+    <br>
+    {{ form.user_email.label}}: {{ form.user_email }}
+    <br>
+    {{ form.user_number.label}}: {{ form.user_number }}
+    <br>
+    {{ form.submit }}
+</form>
+{% endblock body %}
+</html>
