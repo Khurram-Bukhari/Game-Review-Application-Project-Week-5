@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+{% for users in all_users %}
+<p>
+    First name: {{ users.first_name }} <br>
+    Last name: {{ users.last_name }} <br>
+    User email: {{ users.user_email }} <br>
+    User contact number: {{ users.user_number}} <br>
+    <a href = "{{url_for('new_rating', account_id = users.id) }}"> Add a review </a>
+    <a href = "{{url_for('user_reviews', account_id = users.id) }}"> View all reviews </a>
+        
+</p>
+{%endfor%}
+
+{% endblock body %}
