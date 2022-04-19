@@ -12,8 +12,8 @@
 * [Final Thoughts](#final-thoughts)
 
 ### Helpful Resources
-* Kanban board: 
-* Video Presentation:
+* Kanban board: https://trello.com/b/O92n8wLK/game-review-kanban-board
+* Video Presentation: 
 * Website URL: http://35.246.72.81:5000/
 
 <br>
