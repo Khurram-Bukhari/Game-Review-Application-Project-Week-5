@@ -13,7 +13,7 @@
 
 ### Helpful Resources
 * Kanban board: https://trello.com/b/O92n8wLK/game-review-kanban-board
-* Video Presentation: 
+* Video Presentation: https://drive.google.com/file/d/1yKDt6UqZrsZ9qq0r6SVfZ48rq3sHiPzL/view?usp=sharing
 * Website URL: http://35.246.72.81:5000/
 
 <br>
